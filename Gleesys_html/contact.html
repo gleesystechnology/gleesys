@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gleesys | Computer & Laptop Service Centre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo.png" alt="Gleesys Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 60px 0;">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Tell us about your problem, and we'll help you fix it.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- 
+            NOTE: Since GitHub Pages is static, PHP forms won't work.
+            You can use a service like Formspree.io to handle your form submissions.
+            Replace 'YOUR_FORMSPREE_ENDPOINT' with your actual endpoint URL.
+        -->
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="username">Full Name *</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile Number *</label>
+                    <input type="tel" id="mobile" name="mobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="problem">Problem Description *</label>
+                    <textarea id="problem" name="problem" rows="5"
+                        placeholder="Please describe the issue with your computer or laptop..." required></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Submit Inquiry</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>Gleesys Service Centre</h3>
+                    <p>Professional repair services for all your tech needs.</p>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="offers.html">Latest Offers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact Info</h3>
+                    <p>Email: gleesystechnologysolutions@gmail.com</p>
+                    <p>Phone: +91 96 88 55 13 12</p>
+                    <p>Address: HO: Kumar Nagar,Tirupur. Branch : Avinashi</p>
+                    <p>WhatsApp: <a href="https://wa.me/919688551312" target="_blank"
+                            style="color: #25D366; font-weight: 600;">Message us on WhatsApp</a></p>
+                </div>
+            </div>
+            <div
+                style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <p>&copy; 2026 Gleesys Computer & Laptop Service Centre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
